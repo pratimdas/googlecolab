@@ -103,3 +103,7 @@ The dashboard must focus on these top 5 KPIs:
     Future Enhancements:
         No additional requirements or enhancements are prioritized at this stage.
         Focus on building a robust MVP with potential future upgrades (custom filter saving, advanced analytics, etc.).
+
+## Notebook Version Control
+
+This repository tracks notebooks using **jupytext**, which pairs each `.ipynb` file with a matching `.py` script. Edit either file and run `jupytext --sync` to keep them in sync. This makes diffs and reviews easier as notebooks grow in complexity.
